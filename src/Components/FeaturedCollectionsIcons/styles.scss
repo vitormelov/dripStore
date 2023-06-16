@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+$color-bg-gray: #E5E5E5;
+$color-bg-white: #FFFFFF;
+$color-dark-gray: #474747;
+
+.featured-collections-icons {
+    background-color: $color-bg-gray;
+    height: 300px;
+
+    h2 {
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: $color-dark-gray;
+        line-height: 38px;
+        letter-spacing: 0.75px;
+    }
+
+    a {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+
+        img {
+            background-color: $color-bg-white;
+            border-radius: 50px;
+            padding: 10px;
+        }
+
+        p {
+            color: $color-dark-gray;
+        }
+    }
+}

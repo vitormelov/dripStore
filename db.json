@@ -1,0 +1,22 @@
+{
+    "collections": [
+        {
+            "id": 1,
+            "title": "Novo drop Supreme",
+            "discount": 30,
+            "image": "https://trello.com/1/cards/648baccaabd90ef2dc04b6be/attachments/648bacf8c82fa5a01135fadb/download/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696_1.png"
+        },
+        {
+            "id": 2,
+            "title": "Coleção Adidas",
+            "discount": 30,
+            "image": "https://trello.com/1/cards/648baccaabd90ef2dc04b6be/attachments/648bacf8c82fa5a01135fadb/download/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696_1.png"
+        },
+        {
+            "id": 3,
+            "title": "Novo Beats Bass",
+            "discount": 30,
+            "image": "https://trello.com/1/cards/648baccaabd90ef2dc04b6be/attachments/648bacf8c82fa5a01135fadb/download/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696_1.png"
+        }
+    ]
+}
