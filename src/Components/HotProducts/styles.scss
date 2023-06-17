@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+$color-bg-blue: #D8E3F2;
+$color-bg-gray: #E5E5E5;
+$color-bg-white: #FFFFFF;
+$color-light-gray: #F5F5F5;
+$color-medium-gray: #8F8F8F;
+$color-pink: #C92071;
+$color-dark-gray: #474747;
+$color-black: #1F1F1F;
+$color-yellow: #E7FF86;
+
+.hotProducts {
+    background-color: $color-bg-gray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        color: $color-dark-gray;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.75px;
+    }
+
+    .card {
+        background-color: $color-bg-white;
+        width: 100%;
+
+        .card-discount {
+            margin: 0;
+            color: $color-dark-gray;
+            background-color: $color-yellow;
+            border-radius: 8px;
+            width: 80px;
+            height: 22px;
+            text-align: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.75px;
+        }
+
+        .cardImg {
+            text-align: center;
+            height: 250px;
+
+            img {
+                width: 80%;
+                border-radius: 8px;
+            }
+        }
+
+        .cardDetails {
+            background-color: $color-bg-gray;
+
+            p {
+                margin: 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                color: $color-medium-gray;
+                line-height: 24px;
+                letter-spacing: 0.75px;
+            }
+            h4 {
+                margin: 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                color: $color-dark-gray;
+                line-height: 38px;
+                letter-spacing: 0.75px;
+    
+                span {
+                    color: $color-black
+                }
+            }
+        }
+    }
+}
