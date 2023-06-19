@@ -1,17 +1,32 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel'
-import { Paper } from '@mui/material'
+import { Button, Box, Container, Paper } from '@mui/material'
+import stepperShoes from './img/stepperShoes.png'
+
+import './styles.scss'
 
 export default function Stepper(props)
 {
     var items = [
         {
-            name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!"
+            information1: "Melhores ofertas personalizadas",
+            information2: "Queima de estoque Nike 🔥",
+            information3: "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur."
         },
         {
-            name: "Random Name #2",
-            description: "Hello World!"
+            information1: "Melhores ofertas personalizadas",
+            information2: "Queima de estoque Nike 🔥",
+            information3: "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur."
+        },
+        {
+            information1: "Melhores ofertas personalizadas",
+            information2: "Queima de estoque Nike 🔥",
+            information3: "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur."
+        },
+        {
+            information1: "Melhores ofertas personalizadas",
+            information2: "Queima de estoque Nike 🔥",
+            information3: "Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur."
         }
     ]
 
@@ -27,11 +42,22 @@ export default function Stepper(props)
 function Item(props)
 {
     return (
-        <Paper>
-            <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-
-            
-        </Paper>
+        <div className='stepper'>
+            <Paper>
+                <Container>
+                    <Box sx={{ justifyContent: 'space-between', display: 'flex', flexDirection: 'row', alignItems: 'center' } }>
+                        <div className='stepperInfo'>
+                            <p>{props.item.information1}</p>
+                            <h1>{props.item.information2}</h1>
+                            <p><span>{props.item.information3}</span></p>
+                            <Button variant="contained">Ver ofertas</Button>
+                        </div>
+                        <div className='stepperImg'>
+                            <img src={stepperShoes} alt=''/>
+                        </div>
+                    </Box>
+                </Container>
+            </Paper>
+        </div>
     )
 }
