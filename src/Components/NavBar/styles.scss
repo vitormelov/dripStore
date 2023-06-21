@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
-$pink-color: #C92071;
+$color-pink: #C92071;
+$color-gray: #474747;
 
 .navbar {
+    margin-bottom: 30px;
+    
     a {
+        color: $color-gray;
+        margin-right: 10px;
         text-decoration: none;
         font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        color: $pink-color;
+
+        &:hover {
+            color: $color-pink;
+            border-bottom: 3px solid $color-pink;
+        }
+
+        &.active {
+            font-weight: bold;
+            border-bottom: 3px solid $color-pink;
+            color: $color-pink;
+        }
     }
 }

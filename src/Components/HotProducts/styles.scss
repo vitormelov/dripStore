@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 $color-bg-blue: #D8E3F2;
-$color-bg-gray: #E5E5E5;
+$color-bg-gray: #F9F8FE;
 $color-bg-white: #FFFFFF;
 $color-light-gray: #F5F5F5;
 $color-medium-gray: #8F8F8F;
@@ -12,8 +12,8 @@ $color-yellow: #E7FF86;
 
 .hotProducts {
     background-color: $color-bg-gray;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 70px;
+    
 
     h2 {
         font-family: 'Inter';
@@ -25,33 +25,61 @@ $color-yellow: #E7FF86;
         letter-spacing: 0.75px;
     }
 
+    a {
+        display: flex;
+        vertical-align: middle;
+        text-decoration: none;
+        color: $color-pink;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.75px;
+
+        p {
+            margin: 0;
+        }
+
+        .css-i4bv87-MuiSvgIcon-root {
+            margin-top: 5px;
+        }  
+    }
+
     .card {
         background-color: $color-bg-white;
         width: 100%;
+        margin-bottom: 15px;
 
-        .card-discount {
-            margin: 0;
-            color: $color-dark-gray;
-            background-color: $color-yellow;
-            border-radius: 8px;
-            width: 80px;
-            height: 22px;
-            text-align: center;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 22px;
-            letter-spacing: 0.75px;
-        }
+        .card-card {
+            padding: 15px;
+            width: 240px;
+            height: 240px;
 
-        .cardImg {
-            text-align: center;
-            height: 250px;
-
-            img {
-                width: 80%;
+            .card-discount {
+                color: $color-dark-gray;
+                background-color: $color-yellow;
                 border-radius: 8px;
+                width: 80px;
+                height: 22px;
+                text-align: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.75px;
+            }
+    
+            .cardImg {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+                
+                img {
+                    width: 80%;
+                    border-radius: 8px;
+                }
             }
         }
 
@@ -78,8 +106,14 @@ $color-yellow: #E7FF86;
                 line-height: 38px;
                 letter-spacing: 0.75px;
     
-                span {
-                    color: $color-black
+                .old-price {
+                    color: $color-medium-gray;
+                    margin-right: 15px;
+                    text-decoration: line-through;
+                }
+
+                .new-price {
+                    font-weight: bold;
                 }
             }
         }

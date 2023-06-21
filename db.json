@@ -22,7 +22,7 @@
     "hotProducts": [
         {
             "id": 1,
-            "discount": 50,
+            "discount": 75,
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",
@@ -30,7 +30,7 @@
         },
         {
             "id": 2,
-            "discount": 50,
+            "discount": 75,
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",
@@ -62,7 +62,7 @@
         },
         {
             "id": 6,
-            "discount": 50,
+            "discount": 25,
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",
@@ -70,7 +70,7 @@
         },
         {
             "id": 7,
-            "discount": 50,
+            "discount": 25,
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",
@@ -78,7 +78,7 @@
         },
         {
             "id": 8,
-            "discount": 50,
+            "discount": 25,
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",

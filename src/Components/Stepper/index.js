@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel'
 import { Button, Box, Container, Paper } from '@mui/material'
 import stepperShoes from './img/stepperShoes.png'
+import dec1 from './img/dec1.png'
 
 import './styles.scss'
 
@@ -53,7 +54,12 @@ function Item(props)
                             <Button variant="contained">Ver ofertas</Button>
                         </div>
                         <div className='stepperImg'>
-                            <img src={stepperShoes} alt=''/>
+                            <div className='stepperShoes'>
+                                <img src={stepperShoes} alt=''/>
+                            </div>
+                            <div className='imgDec'>
+                                <img src={dec1} alt=''/>
+                            </div>
                         </div>
                     </Box>
                 </Container>

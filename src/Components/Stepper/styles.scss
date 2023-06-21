@@ -50,19 +50,35 @@ $color-pink: #C92071;
             background-color: $color-pink;
             color: $color-light-gray;
             text-transform: none;
+            width: 30%;
         }
     }  
 
     .stepperImg {
-        img {
-            width: 80%;
+        display: flex;
+        
+        .stepperShoes {
+            img {
+                width: 100%;
+            }
         }
+
+        .imgDec {
+            margin-top: 50px;
+            
+            img {
+                width: 150%;
+            }
+        }
+
+        
     }
 }
 
 .css-1m9128y {
     background-color: $color-light-gray;
     margin-top: 0 !important;
+    padding-bottom: 30px;
     
     .css-8ucetn-MuiButtonBase-root-MuiIconButton-root {
         color: $color-pink

@@ -1,9 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 $pink-color: #C92071;
+$color-light-gray: #F5F5F5;
+$color-light-gray2: #6666;
+$color-dark-gray: #474747;
+$color-light-gray2: #6666;
 
-a {
-    text-decoration: none; 
-    font-family: 'Inter', sans-serif;
-    color: $pink-color; 
+
+.menu {
+    margin-bottom: 30px;
+
+    .menu-logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 5px;
+        }
+    }
+
+    .menu-input {
+        display: flex;
+        align-items: center;
+        width: 40%;
+
+        .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+            background-color: $color-light-gray;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            width: 90%;
+
+            label {
+                color: $color-light-gray2;
+            }
+    
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border: none;
+            }
+        }
+
+        .input-glass {
+            display: flex;
+            background-color: $color-light-gray;
+            height: 40px;
+            align-items: center;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding-right: 5px;
+
+            path {
+                color: $color-light-gray2;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none; 
+        font-family: 'Inter', sans-serif;
+        color: $pink-color; 
+
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: $color-dark-gray;
+            line-height: 28px;
+            letter-spacing: 0.75px;
+            text-decoration-line: underline;
+        }
+    }
+
+    Button {
+        background-color: $pink-color;
+        text-transform: none;
+        width: 100px;
+    }
 }

@@ -16,8 +16,6 @@ export default function App() {
         <Menu/>
         <NavBar/>
 
-        <hr/>
-
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/produtos" element={<Products/>} />
@@ -26,8 +24,6 @@ export default function App() {
           <Route path="/meus-pedidos" element={<Orders/>} />
         </Routes>
       </div>
-
-      <hr/>
 
       <Footer/>
     </BrowserRouter>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Grid, Button, Container } from "@mui/material";
 import "./styles.scss"
-import camiseta from './img/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696 1.png'
 
 export default function FeaturedCollections() {
     const [items, setItems] = React.useState([]); 
@@ -16,7 +15,7 @@ export default function FeaturedCollections() {
         return (
             <Grid item xs={4}>
                 <div className="card">
-                    <div>
+                    <div className="card-info">
                         <div className="card-discount">
                             {props.discount}
                             {props.discount && "% OFF"} 
@@ -32,19 +31,15 @@ export default function FeaturedCollections() {
 
                         <Button variant="contained">Comprar</Button>
                     </div>
-
-                    <div>
-                        <img src={camiseta} alt=''></img>
-                    </div>
                 </div>
             </Grid>
         )
     }
 
     return (
-        <Container fixed>
-            <div className="featured-collections">
-                
+        <div className="featured-collections">
+            <Container fixed>
+            
                 <h2>Coleções em Destaque</h2>
 
                 <Grid container spacing={2}>
@@ -52,7 +47,7 @@ export default function FeaturedCollections() {
                         <Card text={cada.title} discount={cada.discount} image={cada.image}/>
                     ))}
                 </Grid>
-            </div>
-        </Container>
+            </Container>
+        </div>
     )
 }
