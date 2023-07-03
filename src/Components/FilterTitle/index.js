@@ -19,7 +19,7 @@ export default function BasicSelect() {
     <div className='filterTitle'>
         <Container fixed>
             <Box sx={{ justifyContent: 'space-between', display: 'flex', flexDirection: 'row', alignItems: 'center' } }>
-                <h3>Resultados para: (LINKAR)</h3>
+                <h3>Resultados para "Tênis" - <span>389 produtos</span></h3>
                 <div className='filterOrder'>
                     <FormControl>
                             <InputLabel id="demo-simple-select-label">Ordenar por:</InputLabel>

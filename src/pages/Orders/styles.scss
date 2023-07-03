@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+$color-gray: #474747;
+
+.orders {
+    section {
+        font-family: Inter;
+        font-size: 14px;
+        color: $color-gray;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+}

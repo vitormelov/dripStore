@@ -27,10 +27,10 @@ export default function ProductInfo() {
           <p>(90 avaliações)</p>
         </Box>
         
-        <div>
-          <h3>R$ 219,00</h3>
-          <p>219,00</p>
-        </div>
+        <Box sx={{ justifyContent: 'flex-start', display: 'flex', flexDirection: 'row'} }>
+          <h3><small>R$ </small>219,00</h3>
+          <h3><span>249,00</span></h3>
+        </Box>
 
         <h4>Descrição do produto</h4>
 

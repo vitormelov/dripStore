@@ -5,6 +5,7 @@ import './styles.scss'
 export default function Filter() { 
     return (
         <div className="filter">
+            <div className="filterInfo">
                 <h2>Filtrar por</h2>
 
                 <hr/>
@@ -44,6 +45,8 @@ export default function Filter() {
                         <FormControlLabel value="used" control={<Radio/>} label="Usado" />
                     </RadioGroup>
                 </FormControl>
-      </div>
+            </div>
+        </div>
+        
     )
   }

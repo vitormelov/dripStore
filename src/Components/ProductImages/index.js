@@ -16,11 +16,9 @@ export default function ProductImages() {
     return (
       <div className="productImages">
         <div className="principalImage" style={{backgroundColor}}>
-        <img src={image} alt="" />
+            <img src={image} alt="" />
         </div>
         
-        
-  
         <div className="otherImages">
             <Box sx={{ justifyContent: 'space-between', display: 'flex', flexDirection: 'row', alignItems: 'center' } }>
                 <Button style={{background: "#E2E3FF"}} onClick={() => changeImage(whiteSneakers, "#E2E3FF")}>

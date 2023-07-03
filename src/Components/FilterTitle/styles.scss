@@ -1,3 +1,26 @@
-.FilterOrder {
-    
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+.filterTitle {
+    h3 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        text-align: left;
+
+        span {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.75px;
+            text-align: left;
+        }
+    }
+
+    .MuiInputBase-formControl {
+        min-width: 300px;
+    }
 }
+

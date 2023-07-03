@@ -1,19 +1,19 @@
-import { Container } from "@mui/material"
+import { Container, Box } from "@mui/material"
 import Filter from "../../Components/Filter"
 import FilterTitle from "../../Components/FilterTitle"
 import HotProducts from "../../Components/HotProducts"
 
 export default function Products() { 
     return (
-      <div>
+      <div style={{background: "#F9F8FE", padding: "20px 0"}}>
         <Container>
           <FilterTitle/>
 
-          <div className="products">
+          <Box sx={{ justifyContent: 'flex-start', display: 'flex', flexDirection: 'row'} }>
             <Filter/>
 
             <HotProducts/>
-          </div>
+          </Box>
         </Container>
       </div>
     )
