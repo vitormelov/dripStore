@@ -1,0 +1,32 @@
+
+.productImages {
+    width: 100%;
+
+    .principalImage {
+        display: flex;
+        justify-content: center;
+        height: 550px;
+        width: 550px;
+        border-radius: 5px;
+
+        img {
+            scale: 0.4;
+        }
+    }
+
+    .otherImages {
+        width: 550px;
+        margin: 15px 0;
+
+        .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+            padding: 0;
+            width: 100px;
+            height: 80px;
+
+            img {
+                scale: 0.8
+            }
+        }
+    }
+}
+

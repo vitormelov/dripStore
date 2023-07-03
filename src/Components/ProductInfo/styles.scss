@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+$color-white: #FFFFFF;
+$color-gray: #CCCCCC;
+$color-gray2: #8F8F8F;
+$color-darkgray: #474747;
+$color-darkgray2: #666666;
+$color-pink: #C92071;
+
+.productInfo {
+    width: 80%;
+    
+    h3 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.9999998807907104px;
+        text-align: left;
+        margin: 0;
+    }
+
+    h4 {
+        font-family: Inter;
+        color: $color-gray2;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        text-align: left;
+    }
+
+    p {
+        font-family: Inter;
+        color: $color-darkgray2;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-right: 10px;
+
+        span {
+            display: flex;
+            align-items: center;
+            background-color: #FFB31F;
+            color: $color-white;
+            font-weight: bold;
+            font-size: 14px;
+            top: 387px;
+            left: 947px;
+            padding: 6px 10px 6px 10px;
+            border-radius: 4px;
+            gap: 5px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.productSize {
+    button {
+        background-color: $color-white;
+        border: 1px solid $color-gray;
+        color: $color-darkgray;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        padding: 0;
+        min-width: 0;
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+    }
+    
+    button:active {
+        background-color: $color-pink;
+        color: $color-white;
+    }
+}
+
+.productColor {
+    display: flex;
+    justify-content: left;
+
+    .productColor1, .productColor2, .productColor3, .productColor4 {
+        display: flex;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 15px 15px 0;
+
+        button {
+            border-radius: 100%;
+            min-width: 0;
+            width: 34px; 
+            height: 34px;
+        }
+    }
+}
+
+.buyButton {
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        background-color: #FFB31F;
+        width: 220px;
+        height: 48px;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+        background-color: #f0a000;
+    }
+}
+
+.borderOn {
+    border: 2px solid $color-pink
+}

@@ -26,7 +26,10 @@
             "image": "",
             "type": "Tênis",
             "title": "K-Swiss V8 - Masculino",
-            "price": 200
+            "price": 200,
+            "style": "Casual",
+            "brand": "Nike",
+            "code": "38416711"
         },
         {
             "id": 2,
