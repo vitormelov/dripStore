@@ -1,7 +1,9 @@
+import Maintenance from "../../Components/Maintenance";
+
 export default function Categories() { 
     return (
       <div>
-        Página de categorias
+        <Maintenance/>
       </div>
     )
   }
